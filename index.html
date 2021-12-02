@@ -28,12 +28,18 @@
 
 
     <link href="assets/css/theme.css" rel="stylesheet" />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <script src="https://kit.fontawesome.com/a9545f17e8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css"
         href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.1/mdb.min.css" rel="stylesheet" />
 
 </head>
 
@@ -44,143 +50,176 @@
     <!--    Main Content-->
     <!-- ===============================================-->
     <main class="main" id="top">
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" data-navbar-on-scroll="data-navbar-on-scroll">
-            <div class="container"><a class="navbar-brand d-flex align-items-center fw-bold fs-2" href="index.html">
-                    <div class="text-1000">Begawo Soft</div>
+        <nav class="navbar navbar-expand-lg py-3" data-navbar-on-scroll="data-navbar-on-scroll">
+            <div class="container-fluid rounded p-3 shadow-lg">
+                <a class="navbar-brand d-flex align-items-center fw-bold fs-2" href="index.html">
+                    <div class="text-1000">BEGAWO SOFT</div>
                     <!-- <div class="text-1000"> &nbsp; Pvt. Ltd.</div> -->
                 </a>
                 <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation"><span
-                        class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <!-- changes required -->
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto pt-2 pt-lg-0">
                         <li class="nav-item" data-anchor="data-anchor"><a class="nav-link fw-medium active"
                                 aria-current="page" href="#home">Home</a></li>
+                        <li class="nav-item" data-anchor="data-anchor"><a class="nav-link fw-medium"
+                                href="#service">Services</a></li>
+                        <li class="nav-item" data-anchor="data-anchor"><a class="nav-link fw-medium"
+                                href="#portfolio">Portfolio</a> </li>
                         <li class="nav-item" data-anchor="data-anchor"><a class="nav-link fw-medium" href="#about">About
                                 us</a></li>
                         <li class="nav-item" data-anchor="data-anchor"><a class="nav-link fw-medium"
-                                href="#service">Services</a></li>
-                        <!-- <li class="nav-item" data-anchor="data-anchor"><a class="nav-link fw-medium"
-                                href="#testimonial">Testimonial</a></li> -->
-                        <li class="nav-item" data-anchor="data-anchor"><a class="nav-link fw-medium"
-                                href="#portfolio">Portfolio</a> </li>
-                        <li class="nav-item" data-anchor="data-anchor"><a class="nav-link fw-medium"
                                 href="#contact-us">Contact Us</a></li>
                     </ul>
-                    <!-- <form class="ps-lg-5">
-                        <a class="btn btn-lg btn-primary rounded-pill order-0" href="tel:+91 8007884218">Call now</a>
-                    </form> -->
                 </div>
             </div>
         </nav>
-        <section class="py-0" id="home">
+
+        <section id="home" class="">
+            <!-- for image -->
             <div class="bg-holder"
-                style="background-image:url(assets/img/illustrations/hero-bg.png);background-position:bottom;background-size:cover;">
+                style="background-image:url(assets/img/img-bg-keyboard-2.jpg); background-position: right; background-size:cover;">
             </div>
-            <!--/.bg-holder-->
 
-            <div class="container position-relative">
+            <!-- for gif -->
+            <!-- <div class="bg-holder"
+                style="background-image:url(assets/gif/gif-1.gif); background-position: right; background-size:cover;">
+            </div> -->
+
+            <div class="container-fluid position-relative bg-dark rounded bg-opacity-50">
                 <div class="row align-items-center pt-8">
-                    <div class="col-md-4 col-lg-6 order-md-1 text-center text-md-end img-fluid"><img class="img-fluid"
-                            src="assets/img/img-bg-blue-2.png" alt="homepage-image" />
+                    <div class="col-md-4 col-lg-6 order-md-1 text-center text-md-end img-fluid">
+
                     </div>
-
-                    <div class="col-md-4 col-lg-6 text-center text-md-start">
-                        <!-- <span
-                            class="badge bg-light rounded-pill text-dark align-items-center d-flex flex-row-reverse justify-content-end mx-auto mx-md-0 ps-0 w-75 w-sm-50 w-md-75 w-xl-50 mb-3">We
-                            create your thoughts.
-                            <img class="img-fluid float-start me-3" src="assets/img/illustrations/arrow-right.png"
-                                alt="arrow-right" />
-                        </span> -->
-
-                        <h1 class="mb-4 display-3 fw-bold lh-sm">
-                            We create your thoughts
-                            <!-- <span class="text-secondary">at your service</span> -->
-                        </h1>
-
-                        <p class="mt-3 mb-4 fs-1">We deliver quick, customized and affordable
-                            <br class="d-none d-lg-block" /> solutions and services, for your business.
+                    <div class="col-md-4 col-lg-6 text-center text-md-start mb-5">
+                        <p class="mt-3 mb-4 fs-1">
+                            &nbsp;
                         </p>
-
-                        <a class="btn btn-primary rounded hover-top" href="tel:+91 8007884218">
+                        <h1 class="ms-md-5 display-3 fw-bold lh-sm text-light">
+                            We create your thoughts
+                        </h1>
+                        <p class="mt-3 mb-4 ms-md-5 py-2 text-light">
+                            Web Development | Android Development |
+                            <br class="d-block d-md-none d-lg-none">
+                            Project Training | IT
+                            Consulting
+                        </p>
+                        <div class="ms-md-5 mb-3">
+                            <a class="btn btn-primary btn-bg-light rounded hover-top px-md-4" style="width: 277px;"
+                                href="courses.html">
+                                <i class="fa fa-laptop white-text mr-4"> </i>
+                                &nbsp; Our Courses
+                            </a>
+                        </div>
+                        <a class="btn btn-success ms-md-5 rounded hover-top" href="tel:+91 8007884218">
                             <i class="fa fa-phone white-text mr-4"> </i>
                             &nbsp; Call now &nbsp;
                         </a>
-                        <a class="btn btn-outline-primary btn-bg-light rounded hover-top px-md-4"
-                            href="mailto:begawo.inc@gmail.com">
+                        <a class="btn btn-warning btn-bg-light rounded hover-top px-md-4"
+                            href="mailto:support@begawosoft.com">
                             <i class="fa fa-envelope-o white-text mr-4"> </i>
                             &nbsp; Email now
                         </a>
+                        <p class="mt-3 mb-4 fs-1">
+                            &nbsp;
+                        </p>
+                        <p class="mt-3 mb-4 fs-1">
+                            &nbsp;
+                        </p>
                     </div>
                 </div>
         </section>
 
-        <!-- ============================================-->
-        <!-- <section> begin ============================-->
-        <!-- <section>
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 mx-auto align-items-center text-left">
-                        <h6 class="fw-bold fs-4 display-3 lh-sm mb-3">Our Clients</h6>
-                        <hr>
+        <section id="service" class="bg-dark">
+            <div class="container-fluid">
+                <div class="row pt-5 px-md-5">
+                    <div class="col-md-8 col-lg-6 text-left text-light">
+                        <h1 class="text-light">Our Services</h1>
+                        <p class="text-start text-light">
+                            We provides multiple software services and solutions for multiple business
+                            options.
+                        </p>
                     </div>
                 </div>
-                <div class="row align-items-center justify-content-center justify-content-lg-around">
-                    <div class="col-6 col-sm-4 col-md-4 col-lg-2 px-md-0 mb-5 mb-lg-0 text-center"><img
-                            src="assets/img/gallery/company-1.png" alt="" /></div>
-                    <div class="col-6 col-sm-4 col-md-4 col-lg-2 px-md-0 mb-5 mb-lg-0 text-center"><img
-                            src="assets/img/gallery/company-2.png" alt="" /></div>
-                    <div class="col-6 col-sm-4 col-md-4 col-lg-2 px-md-0 mb-5 mb-lg-0 text-center"><img
-                            src="assets/img/gallery/company-3.png" alt="" /></div>
-                    <div class="col-6 col-sm-4 col-md-4 col-lg-2 px-md-0 mb-5 mb-lg-0 text-center"><img
-                            src="assets/img/gallery/company-4.png" alt="" /></div>
-                    <div class="col-6 col-sm-4 col-md-4 col-lg-2 px-md-0 mb-5 mb-lg-0 text-center"><img
-                            src="assets/img/gallery/company-1.png" alt="" /></div>
-                </div>
-            </div>
-        </section> -->
-        <!-- <section> close ============================-->
-        <!-- ============================================-->
-
-        <section id="about">
-            <div class="container-lg">
-                <div class="row justify-content-center">
-                    <div class="row">
-                        <div class="col-md-6 col-lg-6 order-md-0 text-center text-md-start text-lg-start mt-md-5"><img
-                                class="img-fluid" src="assets/img/illustrations/team-aim-1.jfif" width="550" alt="" />
-                        </div>
-                        <div class="col-md-6 col-lg-6 px-sm-5 px-md-0 mt-md-5">
-                            <div class="bg-dark p-3 p-md-4 card text-light">
-                                <h6
-                                    class="text-light fw-bold fs-4 display-3 mb-3 text-center text-md-start text-lg-start">
-                                    About us
-                                </h6>
-                                <hr>
-                                <p class="mt-md-5 text-center text-md-start">
-                                    We are a team of a engineers and designers who have been turning visionary
-                                    applications
-                                    into reality since 2020.
-                                    <br>
-                                    We strongly believe that a product’s beauty lies not only in its user interface but
-                                    also
-                                    in its code, performance, and maintainability.
-                                    <br>
-                                    We offer solutions across the entire development life cycle of software.
-                                    <br>
-                                    <br>
-                                    At 'Begawo Soft', we deliver customized software solutions and services that provide
-                                    total
-                                    business solutions.
-                                    <br>
-                                    Among a plethora of services, web design and development,
-                                    tailor-made applications, ERPs, CRMs, E-Commerce applications, Embedded
-                                    applications,
-                                    IoT applications, business to business applications, business to client
-                                    applications,
-                                    managed hosting, and internet portal management, and more that we offer.
+                <div class="row px-md-5">
+                    <div class="col-md-3 rounded p-md-5 p-4">
+                        <div class="card hover-top">
+                            <img class="card-img-top p-3 img-fluid" src="assets/img/illustrations/services-web-1.png"
+                                alt="Card image cap">
+                            <div class="card-header">
+                                <h4>
+                                    <strong>
+                                        Web Development
+                                    </strong>
+                                </h4>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">
+                                    We create custom web solutions exactly based on your business requirements using
+                                    proven methodologies that best fit your expectations.
                                 </p>
-                                <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 rounded p-md-5 p-4">
+                        <div class="card hover-top">
+                            <img class="card-img-top p-3 img-fluid"
+                                src="assets/img/illustrations/services-android-1.png" alt="Card image cap">
+                            <div class="card-header">
+                                <h4>
+                                    <strong>
+                                        Mobile Development
+                                    </strong>
+                                </h4>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">
+                                    We believe in creating high-quality mobile apps that weaved our
+                                    mobile app development services and statistics to build the base of our work.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 rounded p-md-5 p-4">
+                        <div class="card hover-top">
+                            <img class="card-img-top p-3 img-fluid" src="assets/img/illustrations/services-uiux-1.png"
+                                alt="Card image cap">
+                            <div class="card-header">
+                                <h4>
+                                    <strong>
+                                        UI/UX Development
+                                    </strong>
+                                </h4>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Our UI/UX designing team improves your product interfaces to create a
+                                    distinct online presence. We provide creative and functional UI/UX for users.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 rounded p-md-5 p-4">
+                        <div class="card hover-top">
+                            <img class="card-img-top p-3 img-fluid" src="assets/img/illustrations/services-iot-1.png"
+                                alt="Card image cap">
+                            <div class="card-header">
+                                <h4>
+                                    <strong>
+                                        IoT Tools Development
+                                    </strong>
+                                </h4>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">
+                                    We provides IoT tools and applications that makes your life easier.
+                                    Wprking on latest technoogies to provide best possible services.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -188,123 +227,108 @@
             </div>
         </section>
 
-        <!-- ============================================-->
-        <!-- <section> begin ============================-->
-        <section id="service">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-lg-6 text-left">
-                        <h6 class="fw-bold fs-4 display-3 mb-3 text-center text-md-start text-lg-start">Our Services
-                        </h6>
-                        <p class=" text-center text-md-start">
-                            We provides multiple software services and solutions for multiple business
-                            options. <br class="d-none d-xl-block" />
-                        </p>
-                    </div>
-                </div>
-                <div class="row p-2">
-                    <div class="col-md-4 mt-5 mt-md-0 rounded p-md-5 shadow bg-dark p-4">
-                        <div class="text-center px-lg-3"><img class="img-fluid" src="assets/img/illustrations/ux.png"
-                                width="90" alt="" />
-                            <h5 class="text-light fw-bold mt-4">Web Application Development</h5>
-                            <p class="mb-md-0">Get your blood tests delivered at home collect a sample from the news
-                                your blood tests.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mt-5 mt-md-0 rounded p-md-5 shadow bg-dark p-4">
-                        <div class="text-center px-lg-3"><img class="img-fluid" src="assets/img/illustrations/app.png"
-                                width="90" alt="" />
-                            <h5 class="text-light fw-bold mt-4">Mobile Application Development</h5>
-                            <p class="mb-md-0">Get your blood tests delivered at home collect a sample from the news
-                                your blood tests.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mt-5 mt-md-0 rounded p-md-5 shadow bg-dark p-4">
-                        <div class="text-center px-lg-3"><img class="img-fluid" src="assets/img/illustrations/cloud.png"
-                                width="90" alt="" />
-                            <h5 class="text-light fw-bold mt-4">IoT Tools and App Development</h5>
-                            <p class="mb-md-0">Get your blood tests delivered at home collect a sample from the news
-                                your blood tests.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- <section> close ============================-->
-        <!-- ============================================-->
-
-
-        <!-- ============================================-->
-        <!-- <section> begin ============================-->
         <section id="portfolio">
 
-            <div class="container">
-                <div class="row">
+            <div class="container-fluid">
+                <div class="row pt-5 px-md-5 mt-3">
                     <div class="col-md-8 col-lg-6 text-left">
-                        <h6 class="fw-bold fs-4 display-3 mb-3 text-center text-md-start text-lg-start">Our Work</h6>
-                        <p class="mb-5 text-center text-md-start">
-                            We believe in letting our work speak for itself.
-                            <br class="d-none d-xl-block" />
-                            Below are a few samples of applications that built by our team.
+                        <h1>Our Work</h1>
+                        <p class="text-start">
+                            We believe in letting our work speak for itself. Below are a few samples of applications
+                            that built by our team.
                         </p>
                     </div>
                 </div>
-                <div class="row no-gutters">
-
-                    <div class="col-lg-3 col-md-4">
-                        <div class="gallery-item">
-                            <a href="assets/img/portfolio/pi-1.png" class="galleery-lightbox"
-                                data-gallery="gallery-item">
-                                <img src="assets/img/portfolio/pi-1.png" alt="" class="img-fluid">
-                            </a>
-                        </div>
+                <div class="row px-md-5 pb-5">
+                    <div class="col-md-3 col-lg-3 rounded p-md-5 p-4 hover-top">
+                        <img src="assets/img/portfolio/portfolio-begawosoft-wingzapp-img-1.png"
+                            data-mdb-img="assets/img/portfolio/portfolio-begawosoft-wingzapp-img-1.png"
+                            alt="Begawo-Portfolio-1" class="w-100 mb-2 mb-md-4 shadow-1-strong rounded" />
                     </div>
-                    <div class="col-lg-3 col-md-4">
-                        <div class="gallery-item">
-                            <a href="assets/img/portfolio/pi-1.png" class="galleery-lightbox"
-                                data-gallery="gallery-item">
-                                <img src="assets/img/portfolio/pi-1.png" alt="" class="img-fluid">
-                            </a>
-                        </div>
+                    <!-- <div class="col-md-3 col-lg-3 rounded p-md-5 p-4 hover-top">
+                        <img src="assets/img/portfolio/portfolio-begawosoft-wingzapp-img-1.png"
+                            data-mdb-img="assets/img/portfolio/portfolio-begawosoft-wingzapp-img-1.png"
+                            alt="Begawo-Portfolio-2" class="w-100 shadow-1-strong rounded" />
                     </div>
-                    <div class="col-lg-3 col-md-4">
-                        <div class="gallery-item">
-                            <a href="assets/img/portfolio/pi-1.png" class="galleery-lightbox"
-                                data-gallery="gallery-item">
-                                <img src="assets/img/portfolio/pi-1.png" alt="" class="img-fluid">
-                            </a>
-                        </div>
+                    <div class="col-md-3 col-lg-3 rounded p-md-5 p-4 hover-top">
+                        <img src="assets/img/portfolio/portfolio-begawosoft-wingzapp-img-1.png"
+                            data-mdb-img="assets/img/portfolio/portfolio-begawosoft-wingzapp-img-1.png"
+                            alt="Begawo-Portfolio-3" class="w-100 shadow-1-strong rounded" />
                     </div>
-                    <div class="col-lg-3 col-md-4">
-                        <div class="gallery-item">
-                            <a href="assets/img/portfolio/pi-1.png" class="galleery-lightbox"
-                                data-gallery="gallery-item">
-                                <img src="assets/img/portfolio/pi-1.png" alt="" class="img-fluid">
-                            </a>
-                        </div>
+                    <div class="col-md-3 col-lg-3 rounded p-md-5 p-4 hover-top">
+                        <img src="assets/img/portfolio/portfolio-begawosoft-wingzapp-img-1.png"
+                            data-mdb-img="assets/img/portfolio/portfolio-begawosoft-wingzapp-img-1.png"
+                            alt="Begawo-Portfolio-4" class="w-100 shadow-1-strong rounded" />
                     </div>
 
+                    <div class="col-md-3 col-lg-3 rounded px-md-5 px-4 hover-top">
+                        <img src="assets/img/portfolio/portfolio-begawosoft-wingzapp-img-1.png"
+                            data-mdb-img="assets/img/portfolio/portfolio-begawosoft-wingzapp-img-1.png"
+                            alt="Begawo-Portfolio-5" class="w-100 mb-2 mb-md-4 shadow-1-strong rounded" />
+                    </div>
+                    <div class="col-md-3 col-lg-3 rounded px-md-5 px-4 hover-top">
+                        <img src="assets/img/portfolio/portfolio-begawosoft-wingzapp-img-1.png"
+                            data-mdb-img="assets/img/portfolio/portfolio-begawosoft-wingzapp-img-1.png"
+                            alt="Begawo-Portfolio-6" class="w-100 shadow-1-strong rounded" />
+                    </div>
+                    <div class="col-md-3 col-lg-3 rounded px-md-5 px-4 hover-top">
+                        <img src="assets/img/portfolio/portfolio-begawosoft-wingzapp-img-1.png"
+                            data-mdb-img="assets/img/portfolio/portfolio-begawosoft-wingzapp-img-1.png"
+                            alt="Begawo-Portfolio-7" class="w-100 shadow-1-strong rounded" />
+                    </div>
+                    <div class="col-md-3 col-lg-3 rounded px-md-5 px-4 hover-top">
+                        <img src="assets/img/portfolio/portfolio-begawosoft-wingzapp-img-1.png"
+                            data-mdb-img="assets/img/portfolio/portfolio-begawosoft-wingzapp-img-1.png"
+                            alt="Begawo-Portfolio-8" class="w-100 shadow-1-strong rounded" />
+                    </div> -->
                 </div>
             </div>
-            <!-- end of .container-->
         </section>
-        <!-- <section> close ============================-->
-        <!-- ============================================-->
 
-        <section id="contact-us">
-            <div class="container-lg">
+        <section id="service" class="bg-dark">
+            <div class="container-fluid">
+                <div class="row ms-md-5 px-md-5">
+                    <div class="col-md-6 col-lg-6 ms-md-5 mt-5 text-left text-light">
+                        <h1 class="mt-md-5 text-light">About Begawo Soft</h1>
+                        <p class="text-start text-light">
+                            At Begawo Soft, we deliver customized software solutions and services that provide total
+                            business solutions.
+                            Among a plethora of services, web and mobile development, Embedded applications, IoT
+                            Tools and applications, and more that we offer.
+                        </p>
+                        <p class="text-start text-light">
+                            &nbsp; &nbsp;<i class="fa fa-check white-text mr-4"></i> &nbsp;Web Development
+                            <br>
+                            &nbsp; &nbsp;<i class="fa fa-check white-text mr-4"></i> &nbsp;Mobile Development
+                            <br>
+                            &nbsp; &nbsp;<i class="fa fa-check white-text mr-4"></i> &nbsp;UI/UX Development
+                            <br>
+                            &nbsp; &nbsp;<i class="fa fa-check white-text mr-4"></i> &nbsp;IoT Tools and application
+                            Development
+                        </p>
+                    </div>
+                    <!-- <div class="col-md-4 col-lg-4 offset-md-1">
+                        <img class="px-3 img-fluid" src="assets/img/illustrations/services-web-1.png"
+                            alt="Card image cap">
+                    </div> -->
+                </div>
+            </div>
+        </section>
+
+        <!-- <section id="contact-us">
+            <div class="container-fluid">
+                <div class="row pt-5 px-md-5 mt-3">
+                    <div class="col-md-8 col-lg-6 text-left">
+                        <h1>Contact us</h1>
+                        <p class="text-start">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum vitae voluptatum veritatis.
+                        </p>
+                    </div>
+                </div>
                 <div class="row justify-content-center">
                     <div class="row">
-                        <div class="col-md-6 col-lg-6 order-md-0 text-center text-md-start text-lg-start mt-md-5"><img
-                                class="img-fluid" src="assets/img/illustrations/contact-us-male.png" width="550"
-                                alt="" />
-                        </div>
-                        <div class="col-md-6 col-lg-6 px-sm-5 px-md-0 mt-md-5">
-                            <div class="bg-dark p-3 p-md-4 card text-light">
-                                <h6 class="text-light fw-bold display-3 mb-3 text-center text-md-start text-lg-start">
-                                    Contact us
-                                </h6>
-                                <hr>
+                        <div class="col-md-4 col-lg-4 px-sm-5 px-md-0 mt-md-5">
+                            <div class="bg-dark p-2 p-md-3 card text-light">
                                 <form class="pure-form">
                                     <div class="row">
                                         <div class="col-md-6 form-group">
@@ -321,11 +345,11 @@
                                             placeholder="Subject" required>
                                     </div>
                                     <div class="form-group mt-3">
-                                        <textarea class="form-control" name="message" id="message" rows="5"
+                                        <textarea class="form-control" name="message" id="message" rows="3"
                                             placeholder="Message" required></textarea>
                                     </div>
                                     <div class="my-3">
-                                        <!-- <div class="loading">Loading...</div> -->
+                                        <div class="loading">Loading...</div>
                                         <div id="error-message" class="error-message text-light" style="display: none;">
                                             Sorry message has not been sent because of some external issue.
                                         </div>
@@ -333,116 +357,108 @@
                                             Your message has been sent. Thank you!
                                         </div>
                                     </div>
-                                    <button class="btn btn-primary text-center" type="submit">Send Message</button>
+                                    <button class="btn btn-sm btn-primary text-center" type="submit">Send
+                                        Message</button>
                                 </form>
-                                <br>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
 
         <!-- ============================================-->
         <!-- <section> begin ============================-->
         <!-- Footer -->
         <footer class="page-footer font-small unique-color-dark">
-            <div class="beg-bg-08192B">
-                <div class="container">
-                    <div class="row py-4 d-flex">
-                        <div class="col-md-6 col-lg-5 text-center text-md-start mb-4 mb-md-0">
-                            <h3 class="text-light mb-0">
-                                <img src="assets/img/logo.png" alt="" class="img-fluid rounded" width="40px">
-                                &nbsp;Begawo Soft
-                            </h3>
-                        </div>
-                    </div>
-                </div>
+            <div class="bg-dark py-2">
                 <div class="container text-md-left mt-5">
                     <div class="row mt-3">
-                        <!-- <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                            <h6 class="text-light text-uppercase font-weight-bold">Begawo</h6>
-                            <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                            <p class="text-light">
-                                We deliver quick, customized and affordable services, for your business.
-                            </p>
-                            <p class="text-light">
-                                Contact us for more info. <br>
-
-                            </p>
-                        </div> -->
                         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                             <h6 class="text-light text-uppercase font-weight-bold">Social Media</h6>
-                            <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 95px;">
-                            <br>
+                            <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 117px;">
                             <p>
                                 <!--Instagram-->
                                 <a href="https://instagram.com/begawosoft" class="ins-ic" style="text-decoration: none;"
                                     target="_">
-                                    <i class="fab fa-instagram white-text"> </i> &nbsp;Instagram
+                                    &nbsp;Instagram
                                 </a>
-                            </p>
-                            <p>
+                                <br>
                                 <!--Linkedin -->
                                 <a href="https://linkedin.com/company/begawosoft" class="li-ic"
                                     style="text-decoration: none;" target="_">
-                                    <i class="fab fa-linkedin-in white-text mr-4"> </i> &nbsp;LinkedIn
+                                    &nbsp;LinkedIn
                                 </a>
-                            </p>
-                            <p>
+                                <br>
                                 <!-- Facebook -->
                                 <a href="https://facebook.com/begawosoft" class="fb-ic" style="text-decoration: none;"
                                     target="_">
-                                    <i class="fab fa-facebook-f white-text mr-4"> </i> &nbsp;Facebook
+                                    &nbsp;Facebook
                                 </a>
                             </p>
                         </div>
                         <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                            <h6 class="text-light text-uppercase font-weight-bold">Pages</h6>
-                            <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 45px;">
+                            <h6 class="text-light text-uppercase font-weight-bold">Quick Links</h6>
+                            <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 104px;">
                             <p>
                                 <a href="#about" style="text-decoration: none;">
-                                    <i class="fas fa-users white-text mr-4"> </i>&nbsp;About us</a>
-                            </p>
-                            <p>
+                                    &nbsp;About us</a>
+                                <br>
                                 <a href="#contact-us" style="text-decoration: none;">
-                                    <i class="fas fa-address-card white-text mr-4"> </i>&nbsp;Contact us</a>
-                            </p>
-                            <p>
+                                    &nbsp;Contact us</a>
+                                <br>
                                 <a href="#!" style="text-decoration: none;">
-                                    <i class="fas fa-user-shield white-text mr-4"> </i>&nbsp;Privacy policy</a>
+                                    &nbsp;Privacy policy</a>
                             </p>
                         </div>
-                        <div class="text-light col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <h6 class="text-light text-uppercase font-weight-bold">Trending Courses</h6>
+                            <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 162px;">
+                            <p>
+                                <!--Instagram-->
+                                <a href="https://instagram.com/begawosoft" class="ins-ic" style="text-decoration: none;"
+                                    target="_">
+                                    &nbsp;Python Training
+                                </a>
+                                <br>
+                                <!--Linkedin -->
+                                <a href="https://linkedin.com/company/begawosoft" class="li-ic"
+                                    style="text-decoration: none;" target="_">
+                                    &nbsp;Java Training
+                                </a>
+                                <br>
+                                <!-- Facebook -->
+                                <a href="https://facebook.com/begawosoft" class="fb-ic" style="text-decoration: none;"
+                                    target="_">
+                                    &nbsp;Development Training
+                                </a>
+                            </p>
+                        </div>
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                             <h6 class="text-light text-uppercase font-weight-bold">Contact</h6>
-                            <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 70px;">
+                            <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 82px;">
                             <p>
-                                <a href="tel:+91 8007884218" style="text-decoration: none;" target="_">
-                                    <i class="fa fa-phone white-text mr-4"> </i>&nbsp;+91 8007884218</a>
-                            </p>
-                            <p>
-                                <a href="mailto:begawo.inc@gmail.com" style="text-decoration: none;" target="_">
-                                    <i class="fa fa-envelope-o white-text mr-4"> </i>&nbsp;begawo.inc@gmail.com</a>
-                            </p>
-                            <p>
+                                <a href="tel:+91 8007884218" style="text-decoration: none;">
+                                    &nbsp;+91 8007884218</a>
+                                <br>
+                                <a href="mailto:support@begawosoft.com" style="text-decoration: none;">
+                                    &nbsp;support@begawosoft.com</a>
+                                <br>
                                 <a href="https://goo.gl/maps/jaVhj9nEaWcN2qjj6" style="text-decoration: none;"
                                     target="_">
-                                    <i class="fa fa-building-o white-text mr-4"> </i>&nbsp;Nagpur, Maharashtra</a>
+                                    &nbsp;Nagpur, Maharashtra</a>
                             </p>
-                        </div>
-                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                         </div>
                     </div>
                 </div>
                 <!-- Footer Links -->
-
+                <hr>
                 <!-- Copyright -->
-                <div class="footer-copyright text-center py-3 beg-bg-08192B text-light">
-                    <hr>
-                    Copyright © 2020-2021
-                    <a href="https://www.begawosoft.com/" style="text-decoration: none;"> Begawo Soft</a>
-                    All right reserved.
+                <div class="footer-copyright text-center py-2 bg-dark text-light">
+                    © Copyright – 2021 | <a href="https://www.begawosoft.com/" style="text-decoration: none;">
+                        Begawo Soft
+                    </a> | All right reserved.
                 </div>
             </div>
             <!-- Copyright -->
@@ -459,15 +475,14 @@
 
 
 
-
     <!-- ===============================================-->
     <!--    JavaScripts-->
     <!-- ===============================================-->
-    <script src="vendors/@popperjs/popper.min.js"></script>
-    <script src="vendors/bootstrap/bootstrap.min.js"></script>
-    <script src="vendors/is/is.min.js"></script>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
-    <script src="assets/js/theme.js"></script>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.1/mdb.min.js"></script>
+
 
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400&amp;display=swap"
