@@ -18663,11 +18663,11 @@ label {
         }
 
         .zoom:hover {
-            -ms-transform: scale(1.05);
+            -ms-transform: scale(1.01);
             /* IE 9 */
-            -webkit-transform: scale(1.05);
+            -webkit-transform: scale(1.01);
             /* Safari 3-8 */
-            transform: scale(1.05);
+            transform: scale(1.01);
         }
 
 /*-----------------------------------------------
